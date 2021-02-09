@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Pizzeria</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='chapter14.css'>
+
+</head>
+
+<body>
+    <h1>JavaScript Pizzeria</h1>
+
+    <div id="orderForm">
+        <label>How many pizzas do you want?
+        <input type="number" id="numPizzas" />
+    </label>
+        <br />
+        <br />
+        <label>What kind of pizzas?
+        <select id="typePizza">
+            <option value="cheese">cheese</option value>
+            <option value="pepperoni">pepperoni</option value>
+            <option value="supreme">supreme</option value>
+            <option value="chicken">chicken</option value>
+            <option value="beef">beef</option value>
+
+
+        </select>
+    </label>
+        <br />
+        <br />
+        <label>Where do you live?
+        <select id="deliveryCity">
+            <option value="Sandton">Sandton</option value>
+            <option value="Soweto">Soweto</option value>
+            <option value="Germinston">Germinston</option value>
+            <option value="Alex">Alex</option value>
+            <option value="Sacramento">Sacramento</option value>
+
+
+        </select>
+    </label>
+        <br />
+        <br />
+        <label>Is it your birthday?
+        <select id="birthday">
+            <option value="yes">Yes</option("special/halfprice")>
+            <option value="no">No</option>
+        </select>
+    </label>
+        <br />
+        <br />
+        <button type="button" id="placeOrder">Place Order</button>
+    </div>
+    <div id="displayTotal"></div>
+    <script src='chapter14.js'></script>
+</body>
+
+</html>

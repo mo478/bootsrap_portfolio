@@ -1,0 +1,26 @@
+ body {
+     background-color: blueviolet;
+ }
+ 
+ #container {
+     background-color: maroon;
+     border: 5px solid #F5E4C3;
+     height: 275px;
+     width: 750px;
+     margin: auto;
+     text-align: center;
+ }
+ 
+ p {
+     color: white;
+     font-size: 25px;
+ }
+ 
+ #input {
+     width: 100px;
+     margin: 25px auto;
+ }
+ 
+ #btn {
+     margin: 25px auto 5px;
+ }
